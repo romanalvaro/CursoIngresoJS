@@ -8,7 +8,7 @@ function mostrar()
 	dato=prompt("Ingresar Dato");
 	
 	document.getElementById("elNombre").value=dato;
-	alert(dato);
+	
 
 }
 

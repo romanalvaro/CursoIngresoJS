@@ -6,12 +6,12 @@ function SacarResto()
 {
 	var dato1;
     var dato2;
-
+    var resultado;
     dato1=document.getElementById("numeroDividendo").value;
     dato2=document.getElementById("numeroDivisor").value;
 
     dato1=parseInt(dato1);
     dato2=parseInt(dato2);
-
-    alert("El Resto es igual a " + (dato1%dato2)); 
+    resultado=dato1%dato2;
+    alert("El Resto es igual a " + (resultado)); 
 }
