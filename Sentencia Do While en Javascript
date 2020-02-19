@@ -1,0 +1,44 @@
+While itineraciones
+while (coindicion(boolean)){
+
+  condicion, 1
+
+          se cumple hasta que sea falsa
+}
+
+ejemlo 
+var respuesta;
+whhile(si respuesta =="si"){
+  alert("Hola");
+  respuesta = promp();
+}
+ejemplo 2
+
+var contador = 0
+var contador
+while(contador <=4)
+contador = contador + 1
+
+ejemplos de contador(lo mismo que en java)
+
+cdor = cdor  + 1
+cdor+= 1¡
+cdor ++¡ (posincremento) primero muestra y despues suma el valor
+++cdor (preincremento)
+
+acumuladores(lo mismo que en java)
+variable 1+ var 2
+
+bandera
+ej:
+var primeravez=true;
+if (primeravez){
+  primeravez=false;
+}
+bucle infinito:
+
+while(true){
+  if(condicion){
+(frena el bucle)  break;
+  }
+}
