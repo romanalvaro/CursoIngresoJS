@@ -17,6 +17,7 @@ function CalcularPrecio ()
      var aumento1;
      var precio;
      var precioFinal;
+     
      precio=35;
      
 //tomo los valores ingresados
@@ -29,15 +30,12 @@ descuento1=document.getElementById("precioDescuento").value
     {
         descuento1=0.5;
         
-    }else
-    {
+    }else{
         //B.
-        if (cant==5 && marca1=="ArgentinaLuz")
-        {
+        if (cant==5 && marca1=="ArgentinaLuz"){
             descuento1=0.4;
 
-        }else
-        {
+        }else{
             if(cant==5){
 
                 descuento=0.3;
@@ -49,11 +47,9 @@ descuento1=document.getElementById("precioDescuento").value
 
                             descuento1=0.25;
 
-                    } else
-                            {
+                    } else{
 
                                 descuento1=0.20
-
                             // D.
                                 if (cant==3 && marca1=="ArgentinaLuz") 
                                 {
