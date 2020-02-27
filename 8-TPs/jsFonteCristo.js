@@ -11,3 +11,21 @@ function ComenzarIngreso ()
 {
  	
 }
+function NumerosPares(){
+
+    var numero;
+    var i=0;
+
+    document.getElementById("numero").value=numero;
+    
+    do{
+        if (numero % 2==0) {
+            document.write("<br>"+i);
+        }
+        i++;
+
+    }while (i<numero) {
+        
+    }
+
+}

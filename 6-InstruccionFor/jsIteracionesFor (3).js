@@ -1,8 +1,15 @@
 function mostrar()
 {
+    var rep;
 
-var repetciones = prompt("ingrese el número de repeticiones");
+    rep=prompt("Ingrese la Cantidad")
 
-
-
-}//FIN DE LA FUNCIÓN
+    for (var rep; rep>=rep; rep--){
+        
+        alert("Hola UTN FRA");
+        
+        if (rep===0) {
+            break;
+        }
+    }
+}
