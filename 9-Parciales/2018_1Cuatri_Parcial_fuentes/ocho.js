@@ -3,8 +3,14 @@ function mostrar()
     var respuesta;
     var numero;
     var letra;
+    var cdorCero;
+    var cdorImpar;
     var cdorNum;
-
+    var cdorNegativos;
+    var cdorPar;
+    var cdorPositivos;
+    var promPositivos;
+    var promNegativos;
     do{
         do{
             numero = prompt("Ingrese numero");
@@ -18,15 +24,28 @@ function mostrar()
 
 
         if(numero%2==0){
-            cdorNum=cdorNum+1
+            cdorPar=cdorPar+1
         }
         if (numero%2!=0) {
             cdorImpar=cdorImpar+1
         }
-        respuesta=confirm("Desea ccontinua?");
+        if(numero==0){
+            cdorCero==cdorCero+1
+        }
+        if(numero>0){
+            cdorPositivos=cdorPositivos+1
+            acumPositivos=acumPositivos+acumPositivos;
+        }
+        if(numero<0){
+            cdorNegativos=cdorNegativos+1;
+            acumNegativos=acumNegativos-acumNegativos;
+        }
 
-    }while (respuesta);
-        
-        
+        promNegativos=acumNegativos*cdorNegativos;
+        promPositivos=acumPositivos*cdorPositivos;
+
+        respuesta=confirm("Desea continua?");
+
+    }while (respuesta!=true);
     
 }
