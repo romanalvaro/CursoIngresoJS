@@ -11,22 +11,21 @@ function mostrar()
     var sexoMenorNota;
     var notaVarones;
 
-    while(cdor<1){
+    while(cdor<5){
         cdor=cdor+1
 
         do{
             nota = prompt("Ingrese Nota");
             nota = parseInt(nota);
 
-            }while (isNaN(nota) || nota>10 || nota<0) {
+            }while (isNaN(nota) || nota>10 || nota<0);
                 totalNotas=totalNotas+totalNotas
                 cantNotas=cantNotas+1
 
-            }
            
         do{
-
-        }while (sexo!="m"&&sexo!="f");
+            sexo=prompt("Ingrese Sexo (f/m)")
+        }while (sexo!="m" && sexo!="f");
 
         promNotas=totalNotas/cantNotas;
 
@@ -36,6 +35,12 @@ function mostrar()
         }
         if(sexo=="m" && nota>=6){
             notaVarones=notaVarones+1
+        }
+        if (cdor>=5) {
+            alert("Varones con nota 6 o mas: "+notaVarones);
+            alert("Menor nota: "+notaMenor);
+            alert("Sexo de la menor nota: "+sexoMenorNota);
+
         }
     }
     
